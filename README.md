@@ -1,4 +1,4 @@
-<h1>RTK QUERY FlyRadar</h1>
+<h1>RTK QUERY Movie App</h1>
 
 Bu proje React ve RTK query kullanılarak oluşturulmuş bir Movie projesidir.
 
@@ -25,4 +25,3 @@ Bu projede React, RTK query kullanılmıştır
 <h2>Ekran Videosu</h2>
 
 ![](rtk-movie.gif)
-# RTK-Query-Movie-App
