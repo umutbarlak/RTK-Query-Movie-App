@@ -15,6 +15,7 @@ const Card = ({ movie }: CardProps) => {
           className="rounded-lg w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-80"
           src={baseImgUrl + movie.poster_path}
           alt={movie.original_title}
+          loading="lazy"
         />
       </Link>
       <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 p-4 rounded-b-lg opacity-0 transition-opacity duration-300 group-hover:opacity-100">

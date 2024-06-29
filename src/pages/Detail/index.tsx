@@ -54,7 +54,7 @@ const Detail = () => {
             <h2 className="font-semibold md:text-center my-2 text-2xl">
               Production Information
             </h2>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-5 my-4">
+            <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-5 my-4">
               <ItemList data={data.production_companies} />
               <ItemList data={data.spoken_languages} />
               <ItemList data={data.production_countries} />
